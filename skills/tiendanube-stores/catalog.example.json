@@ -1,0 +1,28 @@
+{
+  "_comment": "Example catalog for create-catalog.mjs. Replace with the target store's real/mock data. price is a number (ARS); promo_pct creates promotional_price; variants are size values; images are public URLs the API re-hosts on the TN CDN.",
+  "attribute": "Talle",
+  "categories": [
+    { "name": "Urbanas", "description": "Sneakers para todos los días." },
+    { "name": "Running", "description": "Amortiguación y liviandad para correr." },
+    { "name": "Basket", "description": "Caña alta y tracción para la cancha." },
+    { "name": "Skate", "description": "Suela vulcanizada para la tabla." }
+  ],
+  "products": [
+    { "name": "Aura Low Bone", "category": "Urbanas", "price": 89999, "promo_pct": 20, "stock": 8,
+      "description": "Silueta urbana minimal en cuero tono hueso.",
+      "variants": ["39", "40", "41", "42", "43", "44"],
+      "images": ["https://loremflickr.com/800/1000/sneakers?lock=11"] },
+    { "name": "Velocity Air 2", "category": "Running", "price": 129999, "promo_pct": 20, "stock": 6,
+      "description": "Espuma reactiva de alto retorno. Drop 8mm.",
+      "variants": ["39", "40", "41", "42", "43", "44"],
+      "images": ["https://loremflickr.com/800/1000/running,shoe?lock=22"], "free_shipping": true },
+    { "name": "Rim Breaker Hi", "category": "Basket", "price": 119999, "promo_pct": 20, "stock": 7,
+      "description": "Caña alta con soporte de tobillo. Tracción en espiga.",
+      "variants": ["39", "40", "41", "42", "43", "44"],
+      "images": ["https://loremflickr.com/800/1000/basketball,shoe?lock=33"] },
+    { "name": "Vulc Classic Black", "category": "Skate", "price": 69999, "promo_pct": 20, "stock": 10,
+      "description": "Suela vulcanizada, lengua acolchada. Board feel directo.",
+      "variants": ["39", "40", "41", "42", "43", "44"],
+      "images": ["https://loremflickr.com/800/1000/skate,shoe?lock=44"] }
+  ]
+}
